@@ -8,5 +8,5 @@ import (
 
 func main() {
 	fmt.Printf("%d\n",test2.Arithomatic())
-	fmt.Print(go12.Test())
+	fmt.Print(test.Test())
 }
