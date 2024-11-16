@@ -9,7 +9,7 @@ func Sub(a,b int) int {
 func multi(a,b int) int {
 	return a*b
 }
-func divi(a,b int) int {
+func divi(a,b int) float64 {
 	if b != 0 {
 		return a / b
 	}
