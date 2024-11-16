@@ -3,7 +3,7 @@ import "fmt"
 func Add(a,b int) int {
     return a+b
 }
-func sub(a,b int) int {
+func Sub(a,b int) int {
 	return a-b
 }
 func multi(a,b int) int {
@@ -33,7 +33,7 @@ func Arithomatic() int {
 	   value=Add(a,b) 
 		
 	case 2:
-		 value=sub(a,b)
+		 value=Sub(a,b)
 	case 3:
 		value=multi(a,b)
 	case 4:
